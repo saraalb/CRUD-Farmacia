@@ -3,6 +3,9 @@
 # Projeto de farmácia
 Projeto em Java, utilizando o framework Spring Boot e banco de dados MySQL. Os testes são realizados pelo Insomnia.
 
+# Diagrama MER 📂
+![mer](https://github.com/saraalb/CRUD-Farmacia/assets/89718750/337503ea-d8aa-41d8-a8d1-538ab77ff49b)
+
 # Saiba mais
 O projeto é estruturado criando o back-end de uma loja de farmácia, seguindo o paradigma controle-modelo-visão(CMV). É organizado através de produtos e categorias. Tem o CRUD (Criar, Listar, Atualizar, Consultar por categora, Consultar por produto, e Deletar) completo dos produtos e categorias.
 
