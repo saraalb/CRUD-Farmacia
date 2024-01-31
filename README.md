@@ -1,6 +1,6 @@
 ![Proj Loja de Games](https://github.com/saraalb/CRUD-Farmacia/assets/89718750/9a76328d-347b-4990-ac59-fa3f0708c15b)
 
-# Projeto farmácia
+# Projeto de farmácia
 Projeto em Java, utilizando o framework Spring Boot e banco de dados MySQL. Os testes são realizados pelo Insomnia.
 
 # Saiba mais
