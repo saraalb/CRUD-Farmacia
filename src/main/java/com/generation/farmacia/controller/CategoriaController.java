@@ -43,9 +43,9 @@ public class CategoriaController {
 
 	}
 
-	@GetMapping("/categoria/{categoria}")
-	public ResponseEntity<List<Categoria>> getByTitle(@PathVariable String categoria) {
-		return ResponseEntity.ok(categoriaRepository.findAllByCategoriaContainingIgnoreCase(categoria));
+	@GetMapping("/nome/{nome}")
+	public ResponseEntity<List<Categoria>> getByTitle(@PathVariable String nome) {
+		return ResponseEntity.ok(categoriaRepository.findAllByNomeContainingIgnoreCase(nome));
 	}
 
 	@PostMapping("/cadastrar")
@@ -69,5 +69,7 @@ public class CategoriaController {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND);
 		categoriaRepository.deleteById(id);
 	}
+	
+	
 
 }
